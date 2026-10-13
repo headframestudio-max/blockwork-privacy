@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blockwork · Privacy and safety</title>
+<meta name="description" content="How the Blockwork training app handles your data, and training safely.">
+<style>
+  :root { --bg:#F6F1E7; --surface:#FFFDF8; --ink:#1E2230; --muted:#6B6558; --line:#E6DDCB; --accent:#E5532D; --flag:#FDF0D5; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#15171E; --surface:#1E212B; --ink:#F1ECE2; --muted:#A8A295; --line:#2F3341; --accent:#FF7A55; --flag:#3A2F18; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  .brand { display:flex; align-items:center; gap:10px; font-weight:800; letter-spacing:.5px; font-size:22px; }
+  .tiles { display:grid; grid-template-columns:repeat(2,12px); gap:3px; }
+  .tiles i { width:12px; height:12px; border-radius:3px; display:block; }
+  h1 { font-size: 34px; line-height:1.1; margin: 24px 0 8px; }
+  .flag { background:var(--flag); border-radius:12px; padding:12px 14px; margin:16px 0 8px; font-size:15px; }
+  section { background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:18px 18px 8px; margin:16px 0; }
+  h2 { font-size: 13px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin: 0 0 10px; }
+  li::marker { color: var(--accent); }
+  footer { color: var(--muted); font-size: 14px; margin-top: 24px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand"><span class="tiles"><i style="background:#E5532D"></i><i style="background:#E8A317"></i><i style="background:#0F9D83"></i><i style="background:#2F7BD9"></i></span>BLOCKWORK</div>
+  <h1>Privacy and safety</h1>
+  <p>Blockwork is a training app with an AI coach. This page explains, in plain words, what it keeps, who can see it, and how to train safely.</p>
+  <div class="flag">Draft for people testing Blockwork. It will be checked professionally before Blockwork is in the App Store. Last updated 13 October 2026.</div>
+
+  <section>
+    <h2>What Blockwork keeps</h2>
+    <ul>
+      <li>Your setup answers, test results, training blocks, every set and note you log, check-ins, form-check feedback, your chats with the coach, and your Fuel answers, meal plans, recipes and food log.</li>
+      <li>It's stored on your phone first, then in your private account in Sydney, Australia (Supabase).</li>
+      <li>Videos you film for a form check stay on your phone. Only a few still frames are sent to the coach, and only its feedback is kept.</li>
+      <li>Hands-free logging listens only while you've switched it on in an exercise. Your iPhone turns speech into text (on the phone where it can; otherwise Apple's speech service does it). Blockwork keeps only the set it heard, never the sound.</li>
+      <li>Feedback you send from the app (and its screenshot, if you add one) goes to the person who runs Blockwork, so they can fix things.</li>
+      <li>Recipes you add are private to you unless you share one to the Feed.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Who sees it</h2>
+    <ul>
+      <li>Only you. Blockwork's database rules stop anyone else reading your training, weights, injuries or food, including company admins.</li>
+      <li>If you join through your employer, a company admin sees only your name, when you joined and whether you've used the app lately.</li>
+      <li>On the Feed, only people you approve see your posts, photos, profile and comments. Nobody can find you without your exact @username or your friend code.</li>
+      <li>Blockwork doesn't sell your data or show ads.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>The coach</h2>
+    <ul>
+      <li>Your coach is Claude, an AI made by Anthropic. When you ask it something, the details it needs (your answers, programme and recent logs) are sent to Anthropic to write the reply. Under Anthropic's commercial terms, they aren't used to train its models.</li>
+      <li>Each person has daily and monthly limits on coach use, so costs stay fair.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Your control</h2>
+    <ul>
+      <li>Edit your answers any time under You → Brief.</li>
+      <li>Delete my account (You → Brief → Your data) permanently deletes everything, including your Feed posts and photos.</li>
+      <li>Apple Health, reminders, the camera, photos, the microphone and speech recognition are only used if you allow them. You can switch each off in the iPhone Settings app.</li>
+      <li>Questions about your data: use Send feedback in the app (You → Brief, or shake your phone).</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Training safely</h2>
+    <ul>
+      <li>Blockwork gives general training and food guidance, not medical advice.</li>
+      <li>Stop a movement and see a physio or doctor if pain is sharp, getting worse, lingers into the next day, or comes with swelling, locking, numbness or tingling.</li>
+      <li>If you're pregnant, rehabbing an injury, recovering from an operation or have a medical condition, follow your doctor's or physio's advice first.</li>
+      <li>Fuel isn't for anyone with a history of disordered eating without a dietitian's support.</li>
+    </ul>
+  </section>
+
+  <footer>Blockwork · HeadframeStudio</footer>
+</main>
+</body>
+</html>
